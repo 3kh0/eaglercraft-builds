@@ -1,0 +1,11 @@
+enable_password_logins: true
+only_allow_registered_users_to_login: true
+allow_passwords_without_expiration: true
+allow_self_registration: false
+allow_self_registration_without_expiration: false
+allow_self_change_password: true
+allow_self_renew_password: true
+allow_self_change_password_expiration: false
+allow_self_delete_password: false
+default_password_expire_time_seconds: 604800
+maximum_password_expire_time_seconds: 1814400

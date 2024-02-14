@@ -1,0 +1,219 @@
+
+## Block IDs:
+
+ - **`1` Stone**
+ - **`2` Grass**
+ - **`3` Dirt**
+ - **`4` Cobblestone** 
+ - **`5` Planks**
+ - **`6` Sapling**
+ - **`7` Bedrock**
+ - **`8` Water**
+ - **`9` Water Moving**
+ - **`10` Lava**
+ - **`11` Lava Moving**
+ - **`12` Sand**
+ - **`13` Gravel**
+ - **`14` Gold Ore**
+ - **`15` Iron Ore**
+ - **`16` Coal Ore**
+ - **`17` Log**
+ - **`18` Leaves**
+ - **`19` Sponge**
+ - **`20` Glass**
+ - **`21` Lapis Ore**
+ - **`22` Lapis Block**
+ - **`23` Dispenser**
+ - **`24` Sandstone**
+ - **`25` Note Block**
+ - **`26` Bed (Block)**
+ - **`35` Wool Block**
+ - **`37` Yellow Flower**
+ - **`38` Rose**
+ - **`39` Brown Mushroom**
+ - **`40` Red Mushroom**
+ - **`41` Gold Block**
+ - **`42` Iron Block**
+ - **`43` Double Slab**
+ - **`44` Single Slab**
+ - **`45` Brick Block**
+ - **`46` TNT Block**
+ - **`47` Bookshelf**
+ - **`48` Mossy Cobblestone**
+ - **`49` Obsidian**
+ - **`50` Torch**
+ - **`51` Fire Block**
+ - **`52` Mob Spawner**
+ - **`53` Wood Stairs**
+ - **`54` Chest Block**
+ - **`55` Redstone Wire (Block)**
+ - **`56` Diamond Ore**
+ - **`57` Diamond Block**
+ - **`58` Crafting Table**
+ - **`59` Wheat Crops (Block)**
+ - **`60` Farmland**
+ - **`61` Furnace Block**
+ - **`62` Furnace Block (Active)**
+ - **`63` Sign Post (Block)**
+ - **`64` Wooden Door (Block)**
+ - **`65` Ladder**
+ - **`66` Rails**
+ - **`67` Cobblestone Stairs**
+ - **`68` Wall Sign (Block)**
+ - **`69` Lever**
+ - **`70` Stone Pressure Plate**
+ - **`71` Iron Door (Block)**
+ - **`72` Wooden Pressure Plate**
+ - **`73` Redstone Ore**
+ - **`74` Redstone Ore (Glowing)**
+ - **`75` Redstone Torch (Off)**
+ - **`76` Redstone Torch (On)**
+ - **`77` Stone Button**
+ - **`78` Snow Layer**
+ - **`79` Ice Block**
+ - **`80` Snow Block**
+ - **`81` Cactus**
+ - **`82` Clay Block**
+ - **`83` Sugar Canes (Block)**
+ - **`84` Jukebox**
+ - **`85` Fence**
+ - **`86` Pumpkin**
+ - **`87` Netherrack**
+ - **`88` Soul Sand**
+ - **`89` Glowstone**
+ - **`90` Nether Portal**
+ - **`91` Jack 'o' Lantern**
+ - **`92` Cake (Block)**
+ - **`93` Redstone Repeater (Block, Off)**
+ - **`94` Redstone Repeater (Block, On)**
+ - **`95` Cobblestone**
+ 
+## Item IDs:
+
+ - **`256`** *(0)* **Iron Shovel**
+ - **`257`** *(1)* **Iron Pickaxe**
+ - **`258`** *(2)* **Iron Axe**
+ - **`259`** *(3)* **Flint and Steel**
+ - **`260`** *(4)* **Apple**
+ - **`261`** *(5)* **Bow**
+ - **`262`** *(6)* **Arrow**
+ - **`263`** *(7)* **Coal**
+ - **`264`** *(8)* **Diamond**
+ - **`265`** *(9)* **Iron Ingot**
+ - **`266`** *(10)* **Gold Ingot**
+ - **`267`** *(11)* **Iron Sword**
+ - **`268`** *(12)* **Wood Sword**
+ - **`269`** *(13)* **Wood Shovel**
+ - **`270`** *(14)* **Wood Pickaxe**
+ - **`271`** *(15)* **Wood Axe**
+ - **`272`** *(16)* **Stone Sword**
+ - **`273`** *(17)* **Stone Shovel**
+ - **`274`** *(18)* **Stone Pickaxe**
+ - **`275`** *(19)* **Stone Axe**
+ - **`276`** *(20)* **Diamond Sword**
+ - **`277`** *(21)* **Diamond Shovel**
+ - **`278`** *(22)* **Diamond Pickaxe**
+ - **`279`** *(23)* **Diamond Axe**
+ - **`280`** *(24)* **Stick**
+ - **`281`** *(25)* **Bowl Empty**
+ - **`282`** *(26)* **Bowl Mushroom Soup**
+ - **`283`** *(27)* **Gold Sword**
+ - **`284`** *(28)* **Gold Shovel**
+ - **`285`** *(29)* **Gold Pickaxe**
+ - **`286`** *(30)* **Gold Axe**
+ - **`287`** *(31)* **String**
+ - **`288`** *(32)* **Feather**
+ - **`289`** *(33)* **Gunpowder**
+ - **`290`** *(34)* **Wood Hoe**
+ - **`291`** *(35)* **Stone Hoe**
+ - **`292`** *(36)* **Iron Hoe**
+ - **`293`** *(37)* **Diamond Hoe**
+ - **`294`** *(38)* **Gold Hoe**
+ - **`295`** *(39)* **Seeds**
+ - **`296`** *(40)* **Wheat**
+ - **`297`** *(41)* **Bread**
+ - **`298`** *(42)* **Leather Helmet**
+ - **`299`** *(43)* **Leather Chestplate**
+ - **`300`** *(44)* **Leather Leggings**
+ - **`301`** *(45)* **Leather Boots**
+ - **`302`** *(46)* **Chain Helmet**
+ - **`303`** *(47)* **Chain Chestplate**
+ - **`304`** *(48)* **Chain Leggings**
+ - **`305`** *(49)* **Chain Boots**
+ - **`306`** *(50)* **Iron Helmet**
+ - **`307`** *(51)* **Iron Chestplate**
+ - **`308`** *(52)* **Iron Leggings**
+ - **`309`** *(53)* **Iron Boots**
+ - **`310`** *(54)* **Diamond Helmet**
+ - **`311`** *(55)* **Diamond Chestplate**
+ - **`312`** *(56)* **Diamond Leggings**
+ - **`313`** *(57)* **Diamond Boots**
+ - **`314`** *(58)* **Gold Helmet**
+ - **`315`** *(59)* **Gold Chestplate**
+ - **`316`** *(60)* **Gold Leggings**
+ - **`317`** *(61)* **Gold Boots**
+ - **`318`** *(62)* **Flint**
+ - **`319`** *(63)* **Raw Pork**
+ - **`320`** *(64)* **Cooked Pork**
+ - **`321`** *(65)* **Painting**
+ - **`322`** *(66)* **Golden Apple**
+ - **`323`** *(67)* **Sign (Item)**
+ - **`324`** *(68)* **Wooden Door**
+ - **`325`** *(69)* **Empty Bucket**
+ - **`326`** *(70)* **Water Bucket**
+ - **`327`** *(71)* **Lava Bucket**
+ - **`328`** *(72)* **Minecart (Item)**
+ - **`329`** *(73)* **Saddle**
+ - **`330`** *(74)* **Iron Door (Item)**
+ - **`331`** *(75)* **Redstone (Item)**
+ - **`332`** *(76)* **Snowball**
+ - **`333`** *(77)* **Boat (Item)**
+ - **`334`** *(78)* **Leather**
+ - **`335`** *(79)* **Milk Bucket**
+ - **`336`** *(80)* **Brick (Item)**
+ - **`337`** *(81)* **Clay (Item)**
+ - **`338`** *(82)* **Sugar Canes (Item)**
+ - **`339`** *(83)* **Paper**
+ - **`340`** *(84)* **Book**
+ - **`341`** *(85)* **Slime Ball**
+ - **`342`** *(86)* **Minecart with Chest (Item)**
+ - **`343`** *(87)* **Minecart with Furnace (Item)**
+ - **`344`** *(88)* **Egg**
+ - **`345`** *(89)* **Compass**
+ - **`346`** *(90)* **Fishing Rod**
+ - **`347`** *(91)* **Clock**
+ - **`348`** *(92)* **Glowstone Dust**
+ - **`349`** *(93)* **Raw Fish**
+ - **`350`** *(94)* **Cooked Fish**
+ - **`351`** *(95)* **Dye powder**
+ - **`352`** *(96)* **Bone**
+ - **`353`** *(97)* **Sugar**
+ - **`354`** *(98)* **Cake (Item)**
+ - **`355`** *(99)* **Bed (Item)**
+ - **`356`** *(100)* **Redstone Repeater (Item)**
+ - **`2256`** *(2000)* **Record - 13**
+ - **`2257`** *(2001)* **Record - Cat**
+ 
+## Entity IDs:
+
+ - **`1`** `Item` **item dropped by a mob/player**
+ - **`9`** `Painting` **painting on a wall**
+ - **`10`** `Arrow` **arrow from a bow/skeleton**
+ - **`11`** `Snowball` **thrown snowball or egg**
+ - **`20`** `PrimedTnt` **lit TNT block**
+ - **`21`** `FallingSand` **falling sand block**
+ - **`40`** `Minecart` **minecart in the world**
+ - **`41`** `Boat` **boat in the world**
+ - **`50`** `Creeper` **creeper mob**
+ - **`51`** `Skeleton` **skeleton mob**
+ - **`52`** `Spider` **spider mob**
+ - **`53`** `Giant` **giant zombie**
+ - **`54`** `Zombie` **zombie mob**
+ - **`55`** `Slime` **slime mob**
+ - **`56`** `Ghast` **ghast mob**
+ - **`57`** `PigZombie` **zombie pigman**
+ - **`90`** `Pig` **pig mob**
+ - **`91`** `Sheep` **sheep mob**
+ - **`92`** `Cow` **cow mob**
+ - **`93`** `Chicken` **chicken mob**
+ - **`94`** `Squid` **squid mob**
