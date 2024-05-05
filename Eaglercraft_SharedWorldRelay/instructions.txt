@@ -1,0 +1,32 @@
+
+From the 1.5.2 README.md:
+
+## Creating a LAN Relay
+
+### Simply download (DEAD URL) and run `java -jar sp-relay.jar`
+
+**Run `java -jar sp-relay.jar --debug` to view debug info like all the IPs of incoming connections, as it is not shown by default because logging all that info will reduce performance when the relay is being pinged many times a second depending on it's popularity.**
+
+Edit the `relayConfig.ini` file generated on first launch to change the port and configure ratelimiting and such, and `relays.txt` to change the list of STUN and TURN relays reported to clients connecting to the relay, which are required to correctly establish a P2P LAN world connection in browsers
+
+**The `origin-whitelist` config variable is a semicolon (`;`) seperated list of domains used to restrict what sites are to be allowed to use your relay. When left blank it allows all sites. Add `offline` to allow offline download clients to use your relay as well, and `null` to allow connections that do not specify an `Origin:` header. Use `*` as a wildcard, for example: `*.deev.is` allows all domains ending with "deev.is" to use the relay.**
+
+
+
+2023 notes:
+
+Shared worlds work between any two eaglercraft clients that share a relay server, anyone can join your world it is not limited to just the other devices on your local network
+
+When adding the relay address to the client you must provide it in URI format like "ws://address:port" or "wss://address:port", and determining the IP address and setting up port forwarding is the same as making a regular minecraft server
+
+Ratelimiting is the same as eaglercraftbungee, "ping-ratelimit" is for limiting pings from clients searching for worlds, "world-ratelimit" is for limiting creating and joining new worlds
+
+The relay is not used for transferring the actual gameplay packets, it is only used for the initial discovery process to allow clients to find each other, stuff such as coordinates and chat messages aren't visible to the relay
+
+For your convenience, a "run.bat" and "run.sh" script is included which will auto-restart the relay if it crashes, remove the "--debug" flag from the java command in the script when used in production
+
+
+
+2024 notes:
+
+The default openrelayproject TURN servers are no longer free (did we kill them?) so you will need to also host your own TURN server as well and edit the default relays.txt to use it instead of openrelayproject, we recommend you use https://github.com/coturn/coturn
