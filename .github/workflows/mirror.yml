@@ -1,0 +1,27 @@
+name: update
+
+on:
+  schedule:
+    # every week
+    - cron: '0 0 * * 0'
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+      with:
+        # fetches all
+        fetch-depth: 0
+
+    - name: download and push
+      run: |
+        git remote add upstream https://git.eaglercraft.rip/eaglercraft/eaglercraft-builds
+        git fetch upstream
+        git push --mirror
+
+    - name: clean up
+      if: always()
+      run: git remote remove upstream
