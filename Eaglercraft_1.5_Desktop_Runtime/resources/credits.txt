@@ -1,4 +1,15 @@
 
+§lCHANGES §lIN §lSERVICE §lPACK §l#2:§r
+
+  - improved resource packs §4(by §4ayunami2000)§r
+  - improved the FPS even more
+  - improved voice chat reliability
+  - improved shared worlds reliability
+  - backported X's vanilla world export
+  - backported X's vsync mode
+
+Release date: §912/14/2024§r
+
 §lCHANGES §lIN §lSERVICE §lPACK §l#1:§r
 
   - resource packs §4(by §4ayunami2000)§r

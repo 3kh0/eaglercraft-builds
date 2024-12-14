@@ -31,8 +31,8 @@ menu.generatingTerrain=Building terrain
 menu.convertingLevel=Converting world
 menu.simulating=Simulating the world for a bit
 menu.respawning=Respawning
-menu.shareToLan=Open to LAN
-menu.closeLan=Close LAN
+menu.shareToLan=Invite
+menu.closeLan=Stop Sharing
 
 menu.skinCapeSettings=Skins/Capes Settings
 menu.skinCapeSettingsNote0=I put the button up here so
@@ -250,15 +250,15 @@ addServer.enterName=Server Name
 addServer.enterIp=Server Address
 addServer.add=Done
 addServer.hideAddress=Hide Address
-lanServer.title=LAN World
+lanServer.title=Shared World
 lanServer.scanning=Scanning for games on your local network
-lanServer.start=Start LAN World
+lanServer.start=Start Shared World
 lanServer.otherPlayers=Settings for Other Players
 mcoServer.title=yeeeeeee
 addServer.SSLWarn1=you are on an https: page!
 addServer.SSLWarn2=html5 will only allow wss://
 directConnect.prompt=What would you like to do?
-directConnect.lanWorld=Join LAN World
+directConnect.lanWorld=Join Shared World
 directConnect.lanWorldCode=Enter Join Code:
 directConnect.networkSettingsNote=Click 'Network Settings' to add a relay URL
 directConnect.ipGrabNote=Note: The world's owner can get your IP address
@@ -266,7 +266,7 @@ directConnect.serverJoin=Connect to Server
 directConnect.lanWorldJoin=Join World
 directConnect.lanWorldRelay=Network Settings
 
-lanServer.pauseMenu0=Sharing to LAN
+lanServer.pauseMenu0=Sharing World
 lanServer.pauseMenu1=Relay URL:
 lanServer.pauseMenu2=Join Code:
 
@@ -276,13 +276,13 @@ lanServer.worldName=World Name:
 lanServer.hidden=Hidden:
 lanServer.hideCode=hide details
 lanServer.showCode=show details
-lanServer.opened=LAN world opened on $relay$, join code is §a$code$
-lanServer.closed=LAN world closed
+lanServer.opened=Shared world opened on $relay$, join code is §a$code$
+lanServer.closed=Shared world closed
 lanServer.pleaseWait=Please Wait...
-lanServer.relayDisconnected=Error: connection to LAN relay was lost, you must re-share the world to invide more people
+lanServer.relayDisconnected=Error: connection to shared world relay was lost, you must re-share the world to invide more people
 lanServer.ipGrabNote=Note: Players joining your world can get your IP address
 
-networkSettings.title=LAN World Relay Servers
+networkSettings.title=Shared World Relay Servers
 networkSettings.add=Add Relay
 networkSettings.delete=Delete Relay
 networkSettings.default=Set Primary
@@ -491,6 +491,18 @@ options.adderall=Adderall
 performance.max=Max FPS
 performance.balanced=Balanced
 performance.powersaver=Power saver
+
+options.vsyncWarning.title=Issues Detected
+options.vsyncWarning.0=Some of your video settings may be causing
+options.vsyncWarning.1=the game to lag excessively
+options.vsyncWarning.2=VSync is disabled, some browsers require
+options.vsyncWarning.3=VSync to be enabled to hint when the
+options.vsyncWarning.4=framebuffer has updated. If the game feels
+options.vsyncWarning.5=significantly slower than is indicated by
+options.vsyncWarning.6=the FPS counter, you should enable VSync.
+options.vsyncWarning.fixSettings=Fix Settings
+options.vsyncWarning.continueAnyway=Continue Anyway
+options.vsyncWarning.doNotShowAgain=Do Not Show Again
 
 controls.title=Controls
 
